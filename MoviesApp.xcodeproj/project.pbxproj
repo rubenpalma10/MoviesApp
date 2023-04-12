@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,7 @@
 		85E19FFF29A978840024BA74 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E19FFE29A978840024BA74 /* ButtonCustom.swift */; };
 		85EF5C5B29E45F9C00AB7134 /* MoviesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EF5C5A29E45F9C00AB7134 /* MoviesAppTests.swift */; };
 		85EF5C6229E4A9FA00AB7134 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EF5C6129E4A9FA00AB7134 /* Calculator.swift */; };
+		85EF5C6429E7144A00AB7134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EF5C6329E7144A00AB7134 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		85EF5C5829E45F9C00AB7134 /* MoviesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EF5C5A29E45F9C00AB7134 /* MoviesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppTests.swift; sourceTree = "<group>"; };
 		85EF5C6129E4A9FA00AB7134 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		85EF5C6329E7144A00AB7134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8558D3FD29A90DEF009F9CBB /* MoviesAppApp.swift */,
 				8558D40129A90DF1009F9CBB /* Assets.xcassets */,
 				8558D40329A90DF1009F9CBB /* Preview Content */,
+				85EF5C6329E7144A00AB7134 /* AppDelegate.swift */,
 			);
 			path = MoviesApp;
 			sourceTree = "<group>";
@@ -255,7 +258,7 @@
 				};
 			};
 			buildConfigurationList = 8558D3F529A90DEF009F9CBB /* Build configuration list for PBXProject "MoviesApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -323,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EF5C6429E7144A00AB7134 /* AppDelegate.swift in Sources */,
 				8558D40029A90DEF009F9CBB /* ContentView.swift in Sources */,
 				85BDEB0429A92A8D004731A8 /* TextFieldViewCustom.swift in Sources */,
 				85E19FFD29A9703E0024BA74 /* UserModel.swift in Sources */,
@@ -478,7 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoviesApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 28WRJC84VA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -510,7 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoviesApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 28WRJC84VA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

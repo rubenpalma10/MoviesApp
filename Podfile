@@ -6,5 +6,5 @@ target 'MoviesApp' do
   use_frameworks!
 
   # Pods for MoviesApp
-
+  pod 'AppCenter'
 end
