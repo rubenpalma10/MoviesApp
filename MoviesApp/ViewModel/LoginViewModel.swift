@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppCenterCrashes
 
 class LoginViewModel:ObservableObject{
     @Published var loader:Bool = false
@@ -17,5 +18,6 @@ class LoginViewModel:ObservableObject{
         print("datos .......")
         print(userModel.usuario)
         print(userModel.password)
+        Crashes.generateTestCrash()
     }
 }
